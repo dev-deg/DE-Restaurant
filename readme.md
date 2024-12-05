@@ -38,3 +38,25 @@ npm run dev
     "dev" : "nodemon server.js"
   }
 ```
+
+7. Setup Git
+
+a. Setting up git globally:
+```bash
+git config --global user.email you@example.com
+git config --global user.name "Your Name”
+```
+b. Setting up git repository:
+```bash
+git init
+git commit -m "first commit"
+git remote add origin <url of repo>
+git push -u origin main
+```
+
+c. Commit Changes Regularly
+```bash
+git add *
+git commit -a -m <message>
+git push
+```
