@@ -1,9 +1,15 @@
 const express = require('express');
-
-const PORT = 3000;
+const path = require('path');
+const mainRoutes = require('./routes/main')
 
 const app = express();
+const PORT = 3000;
 
+//static the static files (js, css, images)
+app.use(express.static(path.join(__dirname,'public')));
+
+//redirect to homepage
+app.use('/',mainRoutes);
 
 //Server is running
 app.listen(PORT, () => {

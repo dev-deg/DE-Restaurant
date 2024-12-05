@@ -57,6 +57,6 @@ git push -u origin main
 c. Commit Changes Regularly
 ```bash
 git add *
-git commit -a -m <message>
+git commit -a -m "message"
 git push
 ```
