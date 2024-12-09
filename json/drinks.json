@@ -1,0 +1,105 @@
+{
+    "drinks": [
+      {
+        "category": "Soft Drinks",
+        "items": [
+          {
+            "name": "Still Water",
+            "sizes": [
+              {
+                "portion": "Small",
+                "price": 2.00
+              },
+              {
+                "portion": "Large",
+                "price": 3.50
+              }
+            ]
+          },
+          {
+            "name": "Sparkling Water",
+            "sizes": [
+              {
+                "portion": "Small",
+                "price": 2.50
+              },
+              {
+                "portion": "Large",
+                "price": 4.00
+              }
+            ]
+          },
+          {
+            "name": "Lemonade",
+            "price": 3.00
+          }
+        ]
+      },
+      {
+        "category": "Fresh Juices",
+        "items": [
+          {
+            "name": "Orange Juice",
+            "price": 3.50
+          },
+          {
+            "name": "Apple Juice",
+            "price": 3.00
+          },
+          {
+            "name": "Mixed Berry Juice",
+            "price": 4.00
+          }
+        ]
+      },
+      {
+        "category": "Hot Beverages",
+        "items": [
+          {
+            "name": "Espresso",
+            "price": 2.50
+          },
+          {
+            "name": "Cappuccino",
+            "price": 3.00
+          },
+          {
+            "name": "Mint Tea",
+            "price": 2.50
+          }
+        ]
+      },
+      {
+        "category": "Wines",
+        "items": [
+          {
+            "name": "House White Wine",
+            "sizes": [
+              {
+                "portion": "Glass",
+                "price": 4.50
+              },
+              {
+                "portion": "Bottle",
+                "price": 18.00
+              }
+            ]
+          },
+          {
+            "name": "House Red Wine",
+            "sizes": [
+              {
+                "portion": "Glass",
+                "price": 4.50
+              },
+              {
+                "portion": "Bottle",
+                "price": 18.00
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
