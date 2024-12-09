@@ -60,3 +60,17 @@ git add *
 git commit -a -m "message"
 git push
 ```
+
+8. Imported images into public/images/
+
+9. Installing Mongoose
+```bash
+npm install mongoose
+```
+
+Created db.js where the mongo db code will reside.
+
+10. Installing dotenv to load .env files
+```bash
+npm install dotenv
+```
