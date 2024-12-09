@@ -1,192 +1,172 @@
-{
-    "season": "Summer 2025",
-    "menu": [
+[
+  {
+    "name": "Hummus and Pita",
+    "type": "Starter",
+    "description": "Creamy chickpea hummus served with warm pita bread",
+    "imageUrl": "./images/hummus.png",
+    "sizes": [
       {
-        "category": "Starters",
-        "items": [
-          {
-            "name": "Hummus and Pita",
-            "description": "Creamy chickpea hummus served with warm pita bread",
-            "imageUrl": "./images/hummus.png",
-            "sizes": [
-              {
-                "portion": "Starter",
-                "price": 4.50
-              },
-              {
-                "portion": "Main",
-                "price": 7.50
-              }
-            ]
-          },
-          {
-            "name": "Grilled Halloumi",
-            "description": "Lightly charred halloumi cheese with fresh basil and olive oil",
-            "imageUrl": "./images/grilled-halloumi.png",
-            "sizes": [
-              {
-                "portion": "Starter",
-                "price": 5.00
-              },
-              {
-                "portion": "Main",
-                "price": 9.00
-              }
-            ]
-          },
-          {
-            "name": "Bruschetta",
-            "description": "Toasted bread topped with chopped tomatoes, garlic, and fresh herbs",
-            "imageUrl": "./images/bruscetta.png",
-            "sizes": [
-              {
-                "portion": "Starter",
-                "price": 4.00
-              },
-              {
-                "portion": "Main",
-                "price": 7.50
-              }
-            ]
-          }
-        ]
+        "portion": "Starter",
+        "price": 4.5
       },
       {
-        "category": "Salads",
-        "items": [
-          {
-            "name": "Greek Salad",
-            "description": "Tomatoes, cucumbers, olives, feta cheese, and olive oil dressing",
-            "imageUrl": "./images/greek-salad-1.png",
-            "sizes": [
-              {
-                "portion": "Starter",
-                "price": 5.50
-              },
-              {
-                "portion": "Main",
-                "price": 10.00
-              }
-            ]
-          },
-          {
-            "name": "Tabbouleh",
-            "description": "Parsley, bulgur wheat, mint, and lemon dressing",
-            "imageUrl": "./images/tabbouleh-1.png",
-            "sizes": [
-              {
-                "portion": "Starter",
-                "price": 5.00
-              },
-              {
-                "portion": "Main",
-                "price": 9.00
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "category": "Main Courses",
-        "items": [
-          {
-            "name": "Moussaka",
-            "description": "Layered aubergines, minced lamb, and creamy béchamel sauce",
-            "imageUrl": "./images/moussaka.jpg",
-            "sizes": [
-              {
-                "portion": "Starter",
-                "price": 6.50
-              },
-              {
-                "portion": "Main",
-                "price": 12.50
-              }
-            ]
-          },
-          {
-            "name": "Grilled Sea Bass",
-            "description": "Fresh sea bass with lemon, herbs, and roasted vegetables",
-            "imageUrl": "./images/grilledseabass.jpg",
-            "sizes": [
-              {
-                "portion": "Starter",
-                "price": 8.00
-              },
-              {
-                "portion": "Main",
-                "price": 15.50
-              }
-            ]
-          },
-          {
-            "name": "Vegetable Couscous",
-            "description": "Couscous with roasted peppers, courgettes, and chickpeas",
-            "imageUrl": "./images/veg_couscous.jpg",
-            "sizes": [
-              {
-                "portion": "Starter",
-                "price": 5.50
-              },
-              {
-                "portion": "Main",
-                "price": 11.00
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "category": "Kids Menu",
-        "items": [
-          {
-            "name": "Mini Pasta with Tomato Sauce",
-            "description": "Small portion of pasta in a mild tomato and basil sauce",
-            "imageUrl": "./images/tomato_pasta.jpg",
-            "price": 5.00
-          },
-          {
-            "name": "Grilled Chicken Strips",
-            "description": "Mildly seasoned chicken served with mashed potatoes",
-            "imageUrl": "./images/grilled_chicken_strips.jpg",
-            "price": 6.00
-          }
-        ]
-      },
-      {
-        "category": "Sides",
-        "items": [
-          {
-            "name": "Olive Oil Roasted Potatoes",
-            "description": "Crisp potatoes with herbs and garlic",
-            "imageUrl": "./images/oven-roasted-potatoes.webp",
-            "price": 3.50
-          },
-          {
-            "name": "Seasonal Vegetables",
-            "description": "Lightly steamed fresh vegetables",
-            "imageUrl": "./images/Roasted-Seasonal-Vegetables.png",
-            "price": 3.00
-          }
-        ]
-      },
-      {
-        "category": "Desserts",
-        "items": [
-          {
-            "name": "Baklava",
-            "description": "Layers of filo pastry with honey and nuts",
-            "imageUrl": "./images/baklava.jpg",
-            "price": 4.50
-          },
-          {
-            "name": "Panna Cotta",
-            "description": "Creamy Italian dessert with a berry coulis",
-            "imageUrl": "./images/panna cotta.jpg",
-            "price": 5.00
-          }
-        ]
+        "portion": "Main",
+        "price": 7.5
       }
     ]
+  },
+  {
+    "name": "Grilled Halloumi",
+    "type": "Starter",
+    "description": "Lightly charred halloumi cheese with fresh basil and olive oil",
+    "imageUrl": "./images/grilled-halloumi.png",
+    "sizes": [
+      {
+        "portion": "Starter",
+        "price": 5.0
+      },
+      {
+        "portion": "Main",
+        "price": 9.0
+      }
+    ]
+  },
+  {
+    "name": "Bruschetta",
+    "type": "Starter",
+    "description": "Toasted bread topped with chopped tomatoes, garlic, and fresh herbs",
+    "imageUrl": "./images/bruscetta.png",
+    "sizes": [
+      {
+        "portion": "Starter",
+        "price": 4.0
+      },
+      {
+        "portion": "Main",
+        "price": 7.5
+      }
+    ]
+  },
+  {
+    "name": "Greek Salad",
+    "type": "Salad",
+    "description": "Tomatoes, cucumbers, olives, feta cheese, and olive oil dressing",
+    "imageUrl": "./images/greek-salad-1.png",
+    "sizes": [
+      {
+        "portion": "Starter",
+        "price": 5.5
+      },
+      {
+        "portion": "Main",
+        "price": 10.0
+      }
+    ]
+  },
+  {
+    "name": "Tabbouleh",
+    "type": "Salad",
+    "description": "Parsley, bulgur wheat, mint, and lemon dressing",
+    "imageUrl": "./images/tabbouleh-1.png",
+    "sizes": [
+      {
+        "portion": "Starter",
+        "price": 5.0
+      },
+      {
+        "portion": "Main",
+        "price": 9.0
+      }
+    ]
+  },
+  {
+    "name": "Moussaka",
+    "type": "Main Course",
+    "description": "Layered aubergines, minced lamb, and creamy béchamel sauce",
+    "imageUrl": "./images/moussaka.jpg",
+    "sizes": [
+      {
+        "portion": "Starter",
+        "price": 6.5
+      },
+      {
+        "portion": "Main",
+        "price": 12.5
+      }
+    ]
+  },
+  {
+    "name": "Grilled Sea Bass",
+    "type": "Main Course",
+    "description": "Fresh sea bass with lemon, herbs, and roasted vegetables",
+    "imageUrl": "./images/grilledseabass.jpg",
+    "sizes": [
+      {
+        "portion": "Starter",
+        "price": 8.0
+      },
+      {
+        "portion": "Main",
+        "price": 15.5
+      }
+    ]
+  },
+  {
+    "name": "Vegetable Couscous",
+    "type": "Main Course",
+    "description": "Couscous with roasted peppers, courgettes, and chickpeas",
+    "imageUrl": "./images/veg_couscous.jpg",
+    "sizes": [
+      {
+        "portion": "Starter",
+        "price": 5.5
+      },
+      {
+        "portion": "Main",
+        "price": 11.0
+      }
+    ]
+  },
+  {
+    "name": "Mini Pasta with Tomato Sauce",
+    "type": "Kids Menu",
+    "description": "Small portion of pasta in a mild tomato and basil sauce",
+    "imageUrl": "./images/tomato_pasta.jpg",
+    "price": 5.0
+  },
+  {
+    "name": "Grilled Chicken Strips",
+    "type": "Kids Menu",
+    "description": "Mildly seasoned chicken served with mashed potatoes",
+    "imageUrl": "./images/grilled_chicken_strips.jpg",
+    "price": 6.0
+  },
+  {
+    "name": "Olive Oil Roasted Potatoes",
+    "type": "Side",
+    "description": "Crisp potatoes with herbs and garlic",
+    "imageUrl": "./images/oven-roasted-potatoes.webp",
+    "price": 3.5
+  },
+  {
+    "name": "Seasonal Vegetables",
+    "type": "Side",
+    "description": "Lightly steamed fresh vegetables",
+    "imageUrl": "./images/Roasted-Seasonal-Vegetables.png",
+    "price": 3.0
+  },
+  {
+    "name": "Baklava",
+    "type": "Dessert",
+    "description": "Layers of filo pastry with honey and nuts",
+    "imageUrl": "./images/baklava.jpg",
+    "price": 4.5
+  },
+  {
+    "name": "Panna Cotta",
+    "type": "Dessert",
+    "description": "Creamy Italian dessert with a berry coulis",
+    "imageUrl": "./images/panna cotta.jpg",
+    "price": 5.0
   }
-  
+]

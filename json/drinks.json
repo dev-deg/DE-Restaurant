@@ -1,105 +1,93 @@
-{
-    "drinks": [
+[
+  {
+    "name": "Still Water",
+    "type": "Soft Drink",
+    "sizes": [
       {
-        "category": "Soft Drinks",
-        "items": [
-          {
-            "name": "Still Water",
-            "sizes": [
-              {
-                "portion": "Small",
-                "price": 2.00
-              },
-              {
-                "portion": "Large",
-                "price": 3.50
-              }
-            ]
-          },
-          {
-            "name": "Sparkling Water",
-            "sizes": [
-              {
-                "portion": "Small",
-                "price": 2.50
-              },
-              {
-                "portion": "Large",
-                "price": 4.00
-              }
-            ]
-          },
-          {
-            "name": "Lemonade",
-            "price": 3.00
-          }
-        ]
+        "portion": "Small",
+        "price": 2.0
       },
       {
-        "category": "Fresh Juices",
-        "items": [
-          {
-            "name": "Orange Juice",
-            "price": 3.50
-          },
-          {
-            "name": "Apple Juice",
-            "price": 3.00
-          },
-          {
-            "name": "Mixed Berry Juice",
-            "price": 4.00
-          }
-        ]
+        "portion": "Large",
+        "price": 3.5
+      }
+    ]
+  },
+  {
+    "name": "Sparkling Water",
+    "type": "Soft Drink",
+    "sizes": [
+      {
+        "portion": "Small",
+        "price": 2.5
       },
       {
-        "category": "Hot Beverages",
-        "items": [
-          {
-            "name": "Espresso",
-            "price": 2.50
-          },
-          {
-            "name": "Cappuccino",
-            "price": 3.00
-          },
-          {
-            "name": "Mint Tea",
-            "price": 2.50
-          }
-        ]
+        "portion": "Large",
+        "price": 4.0
+      }
+    ]
+  },
+  {
+    "name": "Lemonade",
+    "type": "Soft Drink",
+    "price": 3.0
+  },
+  {
+    "name": "Orange Juice",
+    "type": "Fresh Juice",
+    "price": 3.5
+  },
+  {
+    "name": "Apple Juice",
+    "type": "Fresh Juice",
+    "price": 3.0
+  },
+  {
+    "name": "Mixed Berry Juice",
+    "type": "Fresh Juice",
+    "price": 4.0
+  },
+  {
+    "name": "Espresso",
+    "type": "Hot Beverage",
+    "price": 2.5
+  },
+  {
+    "name": "Cappuccino",
+    "type": "Hot Beverage",
+    "price": 3.0
+  },
+  {
+    "name": "Mint Tea",
+    "type": "Hot Beverage",
+    "price": 2.5
+  },
+  {
+    "name": "House White Wine",
+    "type": "Wine",
+    "sizes": [
+      {
+        "portion": "Glass",
+        "price": 4.5
       },
       {
-        "category": "Wines",
-        "items": [
-          {
-            "name": "House White Wine",
-            "sizes": [
-              {
-                "portion": "Glass",
-                "price": 4.50
-              },
-              {
-                "portion": "Bottle",
-                "price": 18.00
-              }
-            ]
-          },
-          {
-            "name": "House Red Wine",
-            "sizes": [
-              {
-                "portion": "Glass",
-                "price": 4.50
-              },
-              {
-                "portion": "Bottle",
-                "price": 18.00
-              }
-            ]
-          }
-        ]
+        "portion": "Bottle",
+        "price": 18.0
+      }
+    ]
+  },
+  {
+    "name": "House Red Wine",
+    "type": "Wine",
+    "sizes": [
+      {
+        "portion": "Glass",
+        "price": 4.5
+      },
+      {
+        "portion": "Bottle",
+        "price": 18.0
       }
     ]
   }
-  
+]
