@@ -37,10 +37,7 @@ async function run() {
     await mongoose.connect(uri, clientOptions);
     await mongoose.connection.db.admin().command({ ping: 1 });
     console.log("Pinged your deployment. You successfully connected to MongoDB!");
-    
-    // Fetch food and drinks
-    const food = await fetchFood();
-    const drinks = await fetchDrinks();
+
   } finally {
     await mongoose.disconnect();
   }
